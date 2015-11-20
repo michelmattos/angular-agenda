@@ -14,17 +14,11 @@ const operadoras = [
 ];
 
 // Middlewares
-app.use(express.static('public'));
+app.use( express.static('public') );
 
 // Rotas
-app.get('/api/contato', function(req, res) {
-	res.json(contatos);
-});
-app.get('/api/operadora', function(req, res) {
-	res.json(operadoras);
-});
+app.get( '/api/contato', (req, res) => res.json(contatos) );
+app.get( '/api/operadora', (req, res) => res.json(operadoras) );
 
 // Inicia o servidor web
-app.listen(3000, function() {
-	console.log('Servidor rodando em http://localhost:3000...');
-});
+app.listen( 3000, () => console.log('Servidor rodando em http://localhost:3000...') );
