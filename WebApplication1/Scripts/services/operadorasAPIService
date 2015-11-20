@@ -1,4 +1,0 @@
-angular.module("ListaTelefonica").service("operadorasAPI", function ($http ){
-	
-
-});
