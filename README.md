@@ -4,7 +4,7 @@ Fork do projeto da [Cinthia](https://github.com/CinthiaPessanha/angular-agenda).
 
 ## Como instalar?
 
-Simples, sigua os passos abaixo (necessário ter o [git](https://git-scm.com/downloads) instalado):
+Simples, siga os passos abaixo (necessário ter o [git](https://git-scm.com/downloads) instalado):
 
 1. Instale o [NodeJS](https://nodejs.org/en/download/stable/).
 2. Abra o terminal e execute os seguintes comandos:
